@@ -8,6 +8,7 @@
         Width="800"
         Height="450"
         Background="#FF05050A"
+        Foreground="#FF808080"
         mc:Ignorable="d">
     <Window.Style>
         <Style TargetType="{x:Type Window}">
@@ -105,7 +106,9 @@
         </Grid>
 
         <Grid x:Name="Root" Grid.Row="1">
-            <TextBlock Text="Content" />
+            <TextBlock HorizontalAlignment="Center"
+                       VerticalAlignment="Center"
+                       Text="Content" />
         </Grid>
     </Grid>
 </Window>
